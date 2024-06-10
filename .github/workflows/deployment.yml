@@ -31,4 +31,4 @@ jobs:
       - name: Deploy
         run: |
           echo "Deploying...."
-          echo "${{toJSON(jobs)}}"
+          echo "${{toJSON(job)}}"
